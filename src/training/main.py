@@ -22,7 +22,7 @@ from models import *
 from utils import accuracy, AverageMeter, ProgressMeter, Summary, save_checkpoint, MultiFeatureDataset
 
 # Parse input arguments
-parser = argparse.ArgumentParser(description='Fractals Regression training',
+parser = argparse.ArgumentParser(description='Fractals training',
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 # loading
 parser.add_argument('--dataset_path', default='./fractals_data', type=str,
